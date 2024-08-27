@@ -53,6 +53,43 @@ font-weight: 400;
 line-height:1.5;
 letter-spacing: 0.4px;
 }
+.firm{
+    background-color: var(--happy-title);
+}
+.firm-title{
+color:var(--adittion-title);
+font-size: 32px;
+font-weight: 400;
+line-height:1.18;
 
-
-
+}
+.firm-text{
+    color: var(--adittion-title);
+font-size: 16px;
+font-weight: 400;
+line-height:1.5;
+}
+.firm-desk{
+    color: var(--adittion-title);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+}
+.firm-excerpt{
+    color: var(--adittion-title);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+}
+.firm-name{
+    color: var(--header-text);
+font-size: 17px;
+font-weight: 400;
+line-height: 1.53;
+}
+.firm-position{
+    color: var(--adittional-text);
+font-size: 14px;
+font-weight: 400;
+line-height: 1;
+}
