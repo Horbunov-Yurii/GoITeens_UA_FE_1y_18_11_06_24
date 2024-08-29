@@ -136,3 +136,47 @@ font-size: 15px;
 font-weight: 400;
 line-height: 1.6;
 }
+
+.stairs-title{
+  color: var(--adittion-title);
+font-weight: 400;
+line-height: 1.42; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.stairs-text{
+  color: var(--adittional-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+}
+
+.happy{
+  background-color: var(--adittion-title);
+}
+
+.happy-description{
+  color: var(--happy-text);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.happy-title{
+  color: var(--happy-title);
+font-size: 32px;
+font-weight: 400;
+line-height: 1.18; /* 118.75% */
+}
+
+.happy-text{
+  color: var(--happy-text);
+font-size: 15px;
+font-weight: 400;
+line-height: 1.6; /* 160% */
+}
+
+
