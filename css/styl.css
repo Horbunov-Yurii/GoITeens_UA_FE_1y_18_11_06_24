@@ -5,6 +5,9 @@
   --adittional-text: #645c55;
   --adittion-title: #403e3b;
   --happy-text: #ece7e4;
+  --featured-background:#F7F7F7;
+
+
 }
 body {
   font-family: Poppins;
@@ -196,6 +199,10 @@ line-height: 1.6; /* 160% */
   line-height: 1.5; /* 150% */
 }
 
+.featured{
+    background-color: var(--featured-background);
+
+}
 .featured-title{
   color: var(--title-color);
   font-size: 39px;
@@ -217,4 +224,35 @@ line-height: 1.6; /* 160% */
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.4px;
+}
+.meet-title{
+    color:var(--adittion-title);
+font-size: 32px;
+font-weight: 400;
+line-height: 1.19;
+}
+.meet-text{
+    color: var(--adittional-text);
+font-size: 15px;
+font-weight: 400;
+line-height: 1.6;
+}
+.meet-subtitle{
+    color:var(--header-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.4px;
+}
+.meet-name{
+    color: var(--header-text);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.53; /* 152.941% */
+}
+.meet-proffesion{
+    color: var(--adittional-text);
+font-size: 14px;
+font-weight: 400;
+line-height:1; /* 100% */
 }
