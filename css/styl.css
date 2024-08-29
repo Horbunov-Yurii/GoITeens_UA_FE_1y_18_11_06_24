@@ -256,3 +256,43 @@ font-size: 14px;
 font-weight: 400;
 line-height:1; /* 100% */
 }
+
+.touch{
+  background: #CEC4BC;
+}
+
+.touch-text{
+  color: var(--adittional-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42; /* 142.857% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.touch-title{
+  color: var(--title-color);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.05; /* 105% */
+}
+
+.touch-btn{
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.4px;
+}
+
+.footer{
+  background: #F7F7F7;
+}
+
+.footer-text{
+  color: var(--adittional-text);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42; /* 142.857% */
+}
+
