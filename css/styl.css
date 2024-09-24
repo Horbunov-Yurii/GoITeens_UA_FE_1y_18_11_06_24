@@ -158,10 +158,9 @@ body {
   padding-bottom: 266px;
 }
 .hause-box{
-  display:flex ;
-  flex-direction: column;
-  align-items: flex-end;
   text-align: start;
+  width: 285px;
+  margin-left: auto;
 }
 .hause-title {
   color: var(--adittion-title);
@@ -236,12 +235,18 @@ width: 294px;
   padding-top: 266px;
   padding-bottom: 266px;
 }
+.stars-box{
+text-align: start;
+margin-left: auto;
+width: 285px;
+}
 .stairs-title{
   color: var(--adittion-title);
 font-weight: 400;
 line-height: 1.42; /* 142.857% */
 letter-spacing: 2px;
 text-transform: uppercase;
+font-size: 14px;
 }
 
 .stairs-text{
@@ -249,6 +254,8 @@ text-transform: uppercase;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
+width: 285px;
+margin-left: auto;
 }
 
 .happy{
