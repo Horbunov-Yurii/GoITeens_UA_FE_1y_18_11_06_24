@@ -97,6 +97,13 @@ body {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
+.firm-box{
+  display: flex;
+  justify-content: center;
+  gap: 133px;
+}
+
 .firm-title {
   color: var(--adittion-title);
   font-size: 32px;
@@ -108,19 +115,32 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  width: 493px;
+  margin-bottom: 10px;
 }
 .firm-desk {
   color: var(--adittion-title);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  width: 493px;
+  margin-bottom: 10px;
 }
 .firm-excerpt {
   color: var(--adittion-title);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
+  width: 493px;
+  margin-bottom: 18px;
 }
+
+.firm-wraper{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
 .firm-name {
   color: var(--header-text);
   font-size: 17px;
