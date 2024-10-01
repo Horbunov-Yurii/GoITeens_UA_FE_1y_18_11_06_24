@@ -368,17 +368,29 @@ line-height: 1.6; /* 160% */
   padding: 11px 20px;
   outline: 1px solid blue;
 }
+.meet{
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.meet-box{
+  display: flex;
+  gap: 37px;
+}
+
 .meet-title{
     color:var(--adittion-title);
 font-size: 32px;
 font-weight: 400;
 line-height: 1.19;
+margin-bottom: 14px;
 }
 .meet-text{
     color: var(--adittional-text);
 font-size: 15px;
 font-weight: 400;
 line-height: 1.6;
+width: 358px;
+margin-bottom: 30px;
 }
 .meet-subtitle{
     color:var(--header-text);
@@ -386,7 +398,21 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.4px;
+padding: 11px 20px;
 }
+.meet-list{
+ width: 773px;
+ display: flex;
+ gap: 144px;
+ row-gap: 52px;
+ flex-wrap: wrap;
+}
+.meet-item{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 .meet-name{
     color: var(--header-text);
     font-size: 17px;
