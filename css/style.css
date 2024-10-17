@@ -57,7 +57,11 @@ body {
   background-color: var(--happy-text);
   padding-top: 137px;
   padding-bottom: 117px;
+  background-image: url(../img/coolhouse.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
+
 .hero-logo {
   color: var(--adittional-text);
   font-size: 14px;
@@ -157,6 +161,10 @@ body {
 .hause{
   padding-top: 266px;
   padding-bottom: 266px;
+  background-image: url(../img/hause.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .hause-box{
   text-align: start;
@@ -235,6 +243,10 @@ width: 294px;
 .stairs{
   padding-top: 266px;
   padding-bottom: 266px;
+  background-image: url(../img/stairs.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .stars-box{
 text-align: start;
@@ -305,6 +317,10 @@ line-height: 1.6; /* 160% */
   background-color: gray;
   padding-top: 266px;
   padding-bottom: 266px;
+  background-image: url(../img/somehalway.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
 }
 .staircase-title{
