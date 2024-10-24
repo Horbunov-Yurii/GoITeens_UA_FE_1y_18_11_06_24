@@ -79,6 +79,11 @@ body {
   width: 417px;
   margin-bottom: 18px;
 }
+
+.hero-title:hover{
+   text-shadow: -5px -5px 5px blue, 5px 5px 5px red;
+}
+
 .hero-description {
   color: var(--adittion-title);
   font-size: 16px;
@@ -383,8 +388,20 @@ line-height: 1.6; /* 160% */
   margin-right: auto;
   justify-content: center;
   padding: 11px 20px;
-  outline: 1px solid blue;
 }
+
+.featured-link:hover,
+.featured-link:focus{
+  background-color: gray;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 1px 0px 22px 35px rgba(50,70,96,0.59);
+  -webkit-box-shadow: 1px 0px 22px 35px rgba(50,70,96,0.59);
+  -moz-box-shadow: 1px 0px 22px 35px rgba(50,70,96,0.59) ;
+  outline: 0px solid transparent;
+  text-shadow: 5px 9px 3px red;
+}
+
 .meet{
   padding-top: 96px;
   padding-bottom: 120px;
