@@ -44,6 +44,10 @@ body {
   font-weight: 400;
   line-height: 1.6;
 }
+.header-link:hover,
+.header-link:focus{
+  text-shadow: -5px -5px 5px green;
+}
 .header-button {
   color: var(--happy-title);
   font-size: 16px;
@@ -373,7 +377,9 @@ line-height: 1.6; /* 160% */
   display: flex;
   gap: 16px;
 }
-
+.featured-item:hover{
+  box-shadow: 10px 15px 15px 10px yellow;
+}
 .featured-link{
   display: flex;
   width:  180px;
