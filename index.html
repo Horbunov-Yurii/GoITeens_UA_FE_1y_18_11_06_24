@@ -55,7 +55,7 @@
           accessibility — these are the guiding principles for our work. Read
           more about our previous projects, our process and our team below.
         </p>
-        <button type="button" class="hero-button">Read more</button>
+        <button type="button" class="hero-button" data-modal-open>Read more</button>
       </div>
       </section>
       <!-- section firm -->
@@ -314,5 +314,13 @@
       </ul>
     </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+      <button type="button" class="modal-close" data-modal-close><svg class="modal-buttonsvg">
+        <use href="./img/symbol-defs.svg#icon-close"></use>
+      </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
