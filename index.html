@@ -320,7 +320,40 @@
         <use href="./img/symbol-defs.svg#icon-close"></use>
       </svg></button>
       <form>
-        <h2>Заголовок форми</h2>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <label class="modal-libe">Ім'я
+          <div class="model-wrap">
+          <input type="text" class="modal-input" required> 
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#icon-person"></use>
+          </svg>
+        </div>
+        </label>
+        <label class="modal-libe">Телефон
+          <div class="model-wrap">
+          <input type="tel" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#icon-phone"></use>
+          </svg>
+          </div>
+        </label>
+        <label class="modal-libe">Пошта
+          <div class="model-wrap">
+          <input type="email" class="modal-input" required>
+          <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#icon-email"></use>
+          </svg>
+          </div>
+        </label>
+        <label class="modal-libe" >Коментар
+         <textarea name="" class="modal-coment" placeholder="Введіть текст"></textarea>
+        </label>
+      <label class="modal-chek">
+      <input type="checkbox" required>
+      <span class="checkbox-prim">Погоджуюся з розсилкою та приймаю</span>
+       <a href="" class="modal-link">Умови договору</a>
+    </label>
+    <button type="submit" class="model-botun">Відправити</button>
       </form>
       </div>
     </div>
