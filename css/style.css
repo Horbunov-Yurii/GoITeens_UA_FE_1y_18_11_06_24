@@ -96,6 +96,7 @@ body {
   width: 509px;
   margin-bottom: 30px;
 }
+
 .hero-button {
   color: var(--header-text);
   font-size: 16px;
@@ -106,6 +107,7 @@ body {
   background-color: transparent;
   padding: 11px 20px;
 }
+
 .firm {
   background-color: var(--happy-title);
   padding-top: 96px;
@@ -540,13 +542,18 @@ justify-content: space-between;
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  opacity: 1;
+  /* opacity: 1; */
+  visibility: visible;
 }
 
 .is-hidden{
-  opacity: 0;
+  /* opacity: 0; */
   pointer-events: none;
   visibility: hidden;
+}
+
+.is-hidden .modal{
+  transform: translate(0) rotate(0) scale(0);
 }
 
 .modal{
@@ -557,8 +564,10 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
 position: absolute;
 top: 50%;
 left: 50%;
-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%) rotate(360deg) scale(1);
 padding: 40px;
+transition-property: transform;
+transition-duration: 2000ms;
 }
 
 .modal-close{
